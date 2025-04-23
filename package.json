@@ -1,0 +1,25 @@
+{
+  "name": "kelp_global_backend_assessment",
+  "version": "1.0.0",
+  "description": "Backend Assessment for Kelp Global - Backend Developer Role",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CSV",
+    "JSON",
+    "CSV-JSON",
+    "Parser"
+  ],
+  "author": "Harshavardhan Malve (h.b.malve@outlook.com)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "multer": "^1.4.5-lts.2",
+    "pg": "^8.15.1",
+    "pg-format": "^1.0.4",
+    "winston": "^3.17.0"
+  }
+}
