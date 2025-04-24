@@ -14,8 +14,5 @@ module.exports = {
     idleTimeoutMillis: 30000,
     connectionTimeoutMillis: 2000,
   },
-  upload: {
-    dir: process.env.CSV_UPLOAD_DIR || 'uploads',
-  },
   CSV_FILE_PATH: path.resolve(__dirname, '../../', process.env.CSV_FILE_PATH),
 };
